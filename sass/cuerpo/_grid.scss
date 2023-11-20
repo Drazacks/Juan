@@ -32,10 +32,13 @@
 
 
 .div3 {
+    display: flex;
+    justify-content: space-evenly;
     grid-area: 2 / 2 / 4 / 6;
     background-color: rgb(2, 150, 248);
     border-radius: 44px;
-    background: radial-gradient(circle, rgba(51,209,217,1) 0%, rgba(13,12,175,1) 100%);     box-shadow: 5px 5px 6px #384d25,
+    background: radial-gradient(circle, rgb(111, 204, 209) 0%, rgb(61, 61, 193) 100%);     box-shadow: 5px 5px 6px #384d25,
         -5px -5px 6px rgb(36, 92, 4);
     padding: 5%;
+
 }
