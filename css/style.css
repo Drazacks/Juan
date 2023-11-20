@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(105, 48, 96);
+}
+
+.navbar a:hover {
+  background-color: lightgray;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 50px;
+}
+
+.div1 {
+  grid-area: 1/1/2/6;
+  border-radius: 44px;
+  background-color: #0061c1;
+  border-radius: 44px;
+  background: radial-gradient(circle, rgb(51, 209, 217) 0%, rgb(13, 12, 175) 100%);
+  box-shadow: 5px 5px 6px #003366, -5px -5px 6px #00cdff;
+  place-items: center;
+}
+
+.div1 h1 {
+  text-align: center;
+}
+
+.div2 {
+  grid-area: 2/1/6/3;
+  background-color: rgb(2, 150, 248);
+  border-radius: 44px;
+  background: radial-gradient(circle, rgb(51, 209, 217) 0%, rgb(13, 12, 175) 100%);
+  box-shadow: 5px 5px 6px #384d25, -5px -5px 6px rgb(36, 92, 4);
+}
+
+.div2 h2 {
+  text-align: center;
+}
+
+.div3 {
+  grid-area: 2/3/4/6;
+  background-color: rgb(2, 150, 248);
+  border-radius: 44px;
+  background: radial-gradient(circle, rgb(51, 209, 217) 0%, rgb(13, 12, 175) 100%);
+  box-shadow: 5px 5px 6px #384d25, -5px -5px 6px rgb(36, 92, 4);
+  padding: 5%;
+}
+
+body {
+  background: rgb(124, 10, 119);
+  background: linear-gradient(90deg, rgba(124, 10, 119, 0.7859476554) 0%, rgb(38, 42, 173) 35%, rgb(0, 131, 157) 100%);
+  color: bisque;
+}
+
+body h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
