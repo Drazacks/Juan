@@ -9,34 +9,29 @@
 
 .div1 {
     grid-area: 1 / 1 / 2 / 6;
-    border-radius: 44px;
     background-color: #0061c1;
-    border-radius: 44px;
-    background: radial-gradient(circle, rgba(51,209,217,1) 0%, rgba(13,12,175,1) 100%);     box-shadow: 5px 5px 6px #003366,
-        -5px -5px 6px #00cdff;
+    // background: radial-gradient(circle, rgba(51,209,217,1) 0%, rgba(13,12,175,1) 100%);     box-shadow: 5px 5px 6px #003366,
+    //     -5px -5px 6px #00cdff;
     place-items: center;
 }
 
     .div1 h1 {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
     }
 
 
 .div2 {
-    grid-area: 2 / 1 / 4 / 3;
-    background-color: rgb(2, 150, 248);
-    border-radius: 44px;
-    background: radial-gradient(circle, rgba(51,209,217,1) 0%, rgba(13,12,175,1) 100%);     box-shadow: 5px 5px 6px #384d25,
-        -5px -5px 6px rgb(36, 92, 4);
+    grid-area: 2 / 1 / 4 / 2;
+    
 }
 
-    .div2 h2 {
-        text-align: center;
-        
-    }
+
 
 .div3 {
-    grid-area: 2 / 3 / 4 / 6;
+    grid-area: 2 / 2 / 4 / 6;
     background-color: rgb(2, 150, 248);
     border-radius: 44px;
     background: radial-gradient(circle, rgba(51,209,217,1) 0%, rgba(13,12,175,1) 100%);     box-shadow: 5px 5px 6px #384d25,
